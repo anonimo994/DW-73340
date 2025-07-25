@@ -8,10 +8,14 @@
 </head>
 <body>
   <!-- ENCABEZADO -->
-  <header>
-    <img src="../images/logo-anima.jpg" alt="Logo" class="logo" />
-    <nav>
-      <ul class="menu-horizontal">
+  <header class="site-header">
+    <a href="../index.html" class="logo-link">
+      <img src="../images/logo-anima.jpg" alt="Logo de ANIMA" class="logo" />
+    </a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+    <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
+    <nav class="nav">
+      <ul class="nav-menu">
         <li><a href="../index.html">Inicio</a></li>
         <li><a href="proyectos.html">Proyectos</a></li>
         <li><a href="trabajo.html">Trabajo</a></li>
@@ -24,36 +28,45 @@
   <!-- CONTENIDO -->
   <main>
     <h1>Trabajo</h1>
-
     <section class="intro-text">
       <p>
-        A lo largo de mi carrera he participado en diferentes tipos de trabajo que abarcan diseño, desarrollo, creación de contenido y más. Aquí puedes explorar algunas de mis experiencias y proyectos destacados.
+        A lo largo de mi carrera he participado en diferentes tipos de
+        trabajo que abarcan diseño, desarrollo, creación de contenido y
+        más. Aquí puedes explorar algunas de mis experiencias y proyectos
+        destacados.
       </p>
     </section>
 
-    <!-- SCROLL DE TARJETAS -->
+    <!-- Carrusel horizontal de tarjetas -->
     <section class="trabajo-scroll">
       <div class="trabajo-card">
         <div class="texto-trabajo">
-          <p>Diseño editorial para revistas culturales. Creación de portadas, diagramación y elección de tipografía adecuada.</p>
+          <p>
+            Diseño editorial para revistas culturales. Creación de
+            portadas, diagramación y elección de tipografía adecuada.
+          </p>
         </div>
         <div class="imagen-trabajo">
           <img src="../images/Trabajo/diseño.webp" alt="Diseño Editorial" />
         </div>
       </div>
-
       <div class="trabajo-card">
         <div class="texto-trabajo">
-          <p>Desarrollo de sitios web responsivos con HTML, CSS y estructuras semánticas bien organizadas.</p>
+          <p>
+            Desarrollo de sitios web responsivos con HTML, CSS y estructuras
+            semánticas bien organizadas.
+          </p>
         </div>
         <div class="imagen-trabajo">
           <img src="../images/Trabajo/desarrollo.jpg" alt="Desarrollo Web" />
         </div>
       </div>
-
       <div class="trabajo-card">
         <div class="texto-trabajo">
-          <p>Creación de campañas gráficas para redes sociales, adaptadas a distintos formatos y públicos.</p>
+          <p>
+            Creación de campañas gráficas para redes sociales, adaptadas a
+            distintos formatos y públicos.
+          </p>
         </div>
         <div class="imagen-trabajo">
           <img src="../images/Trabajo/redes.jpg" alt="Redes Sociales" />

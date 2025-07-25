@@ -1,0 +1,51 @@
+.sobre-mi {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #222;
+}
+
+.centered-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 25px;
+}
+
+.img-perfil {
+  width: 220px;
+  height: auto;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.sobre-mi h2 {
+  margin: 0;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #111;
+}
+
+.sobre-mi p {
+  font-size: 1.05rem;
+  line-height: 1.8;
+  text-align: center;
+  color: #333;
+}
+
+.sobre-mi .p2 {
+  margin-top: 10px;
+  font-style: italic;
+  color: #444;
+}
+
+.sobre-mi .p2 a {
+  color: var(--primary);
+  text-decoration: none;
+  transition: text-decoration 0.2s ease;
+}
+
+.sobre-mi .p2 a:hover { text-decoration: underline; }

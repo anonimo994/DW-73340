@@ -1,0 +1,58 @@
+.intro-text {
+  max-width: 900px;
+  margin: 20px auto;
+  text-align: center;
+  padding: 0 20px;
+}
+
+.galeria-proyectos {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  padding: 20px;
+}
+
+.galeria-proyectos img {
+  width: 100px; height: 100px;
+  object-fit: cover;
+  background: #ccc;
+  border-radius: 8px;
+  border: 1px solid rgba(0,0,0,0.05);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  cursor: pointer;
+}
+
+.galeria-proyectos img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.12);
+}
+
+.modal {
+  display: none;
+  position: fixed; top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  background-color: rgba(0,0,0,0.85);
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modal:target { display: flex; }
+
+.modal img {
+  max-width: 90%;
+  max-height: 80vh;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.3);
+}
+
+.cerrar {
+  position: absolute;
+  top: 30px; right: 40px;
+  font-size: 40px;
+  color: white;
+  text-decoration: none;
+  z-index: 1001;
+}

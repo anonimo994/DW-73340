@@ -1,0 +1,19 @@
+{
+  "name": "dw-73340",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anonimo994/DW-73340.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anonimo994/DW-73340/issues"
+  },
+  "homepage": "https://github.com/anonimo994/DW-73340#readme",
+  "description": ""
+}

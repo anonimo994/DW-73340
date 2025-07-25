@@ -8,10 +8,14 @@
 </head>
 <body>
   <!-- ENCABEZADO -->
-  <header>
-    <img src="../images/logo-anima.jpg" alt="Logo" class="logo" />
-    <nav>
-      <ul class="menu-horizontal">
+  <header class="site-header">
+    <a href="../index.html" class="logo-link">
+      <img src="../images/logo-anima.jpg" alt="Logo de ANIMA" class="logo" />
+    </a>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+    <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
+    <nav class="nav">
+      <ul class="nav-menu">
         <li><a href="../index.html">Inicio</a></li>
         <li><a href="proyectos.html">Proyectos</a></li>
         <li><a href="trabajo.html">Trabajo</a></li>
@@ -24,20 +28,27 @@
   <!-- CONTENIDO PRINCIPAL -->
   <main>
     <h1>Proyectos</h1>
-
     <section class="intro-text">
       <p>
-        Aquí encontrarás una selección de mis proyectos más destacados. Desde desarrollos web hasta campañas creativas, cada uno refleja mi pasión y dedicación.
+        Aquí encontrarás una selección de mis proyectos más destacados. Desde
+        desarrollos web hasta campañas creativas, cada uno refleja mi
+        pasión y dedicación.
       </p>
     </section>
 
+    <!-- Vídeo de proyectos -->
     <section class="video-box">
       <div class="video-wrapper">
-        <iframe src="https://www.youtube.com/embed/7QXR4RlHg-c?si=e_FBeXL5z7JNSVqF" frameborder="0" allowfullscreen></iframe>
+        <iframe
+          src="https://www.youtube.com/embed/7QXR4RlHg-c?si=e_FBeXL5z7JNSVqF"
+          title="Proyectos destacados"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
       </div>
     </section>
 
-    <!-- GALERÍA DE PROYECTOS -->
+    <!-- Galería de proyectos -->
     <section class="galeria-proyectos">
       <a href="#img1"><img src="../images/Proyectos/logo-harun.png" alt="Logo Harun" /></a>
       <a href="#img2"><img src="../images/Proyectos/logo-mirai.png" alt="Logo Mirai" /></a>
@@ -46,30 +57,26 @@
       <a href="#img5"><img src="../images/Proyectos/logo-persefone.png" alt="Logo Perséfone" /></a>
     </section>
 
-    <!-- MODALES SIN JAVASCRIPT -->
+    <!-- Modales sin JavaScript -->
     <div class="modal" id="img1">
       <a href="#" class="cerrar">×</a>
-      <img src="../images/Proyectos/logo-harun.png" alt="Logo Harun" />
+      <img src="../images/Proyectos/logo-harun.png" alt="Logo Harun en grande" />
     </div>
-
     <div class="modal" id="img2">
       <a href="#" class="cerrar">×</a>
-      <img src="../images/Proyectos/logo-mirai.png" alt="Logo Mirai" />
+      <img src="../images/Proyectos/logo-mirai.png" alt="Logo Mirai en grande" />
     </div>
-
     <div class="modal" id="img3">
       <a href="#" class="cerrar">×</a>
-      <img src="../images/Proyectos/logo-alquimia.png" alt="Logo Alquimia" />
+      <img src="../images/Proyectos/logo-alquimia.png" alt="Logo Alquimia en grande" />
     </div>
-
     <div class="modal" id="img4">
       <a href="#" class="cerrar">×</a>
-      <img src="../images/Proyectos/calle.jpg" alt="Render Ciudad" />
+      <img src="../images/Proyectos/calle.jpg" alt="Render Ciudad en grande" />
     </div>
-
     <div class="modal" id="img5">
       <a href="#" class="cerrar">×</a>
-      <img src="../images/Proyectos/logo-persefone.png" alt="Logo Perséfone" />
+      <img src="../images/Proyectos/logo-persefone.png" alt="Logo Perséfone en grande" />
     </div>
   </main>
 

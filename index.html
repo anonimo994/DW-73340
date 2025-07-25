@@ -1,101 +1,126 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-<title>ANIMA - Inicio</title>
-<link rel="stylesheet" href="css/style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- Único archivo CSS enlazado -->
+  <link rel="stylesheet" href="css/style.css" />
+  <title>ANIMA - Inicio</title>
 </head>
 <body>
-<!-- ENCABEZADO -->
-<header>
-    
-    <img src="images/logo-anima.jpg" alt="Logo" class="logo" />
-    <nav>
-    <ul class="menu-horizontal">
-        <li><a href="#">Inicio</a></li>
+  <!-- ENCABEZADO -->
+  <header class="site-header">
+    <!-- Logo enlazado al inicio -->
+    <a href="index.html" class="logo-link">
+      <img src="images/logo-anima.jpg" alt="Logo de ANIMA" class="logo" />
+    </a>
+    <!-- Checkbox para el menú hamburguesa -->
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" />
+    <label for="nav-toggle" class="nav-toggle-label"><span></span></label>
+    <nav class="nav">
+      <ul class="nav-menu">
+        <li><a href="index.html">Inicio</a></li>
         <li><a href="pages/proyectos.html">Proyectos</a></li>
         <li><a href="pages/trabajo.html">Trabajo</a></li>
         <li><a href="pages/sobre_mi.html">Sobre mí</a></li>
         <li><a href="pages/contacto.html">Contacto</a></li>
-    </ul>
+      </ul>
     </nav>
-</header>
+  </header>
 
-<!-- CONTENIDO -->
-<main>
-<h1>Inicio</h1>
-<section class="box-model">
-  <div class="texto-box">
-    <p>
-      Bienvenido a <strong>ANIMA</strong>, una agencia de publicidad pensada para un mundo que se mueve a la velocidad de los memes, los trends y los escándalos digitales.
-      No somos una agencia tradicional. No hacemos lo mismo que todos. Y definitivamente no te vamos a prometer “más seguidores”. 
-      Lo que hacemos es crear presencia con sentido, presencia con garra, presencia con estrategia.
-    </p>
-    <p>
-      Somos especialistas en <strong>redes sociales y control de crisis</strong>, dos campos que no se enseñan en la universidad pero que definen el futuro de una marca. 
-      Sabemos lo que significa una narrativa que se rompe, una reputación en riesgo o un comentario viral que se sale de control. Y por eso no trabajamos con fórmulas, trabajamos con inteligencia.
-    </p>
-    <p>
-      Detrás de cada publicación que lanzamos hay intención. Detrás de cada silencio que sugerimos hay cálculo. Y detrás de cada marca que confía en nosotros, hay resultados.
-      Porque en ANIMA no se improvisa. Se analiza, se crea, se dispara.
-    </p>
-    <p>
-      Si estás buscando una agencia que entienda el poder de lo que no se dice, del momento exacto para aparecer, y del impacto de una buena estrategia en redes,
-      llegaste al lugar correcto. Esto no es un showroom de diseño: es una central de ideas, emociones y decisiones inteligentes.
-    </p>
-  </div>
+  <!-- CONTENIDO PRINCIPAL -->
+  <main>
+    <h1>Inicio</h1>
+    <!-- Texto + vídeo -->
+    <section class="box-model">
+      <div class="texto-box">
+        <p>
+          Bienvenido a <strong>ANIMA</strong>, una agencia de publicidad pensada
+          para un mundo que se mueve a la velocidad de los memes, los trends
+          y los escándalos digitales. No somos una agencia tradicional. No
+          hacemos lo mismo que todos. Y definitivamente no te vamos a
+          prometer “más seguidores”. Lo que hacemos es crear presencia con
+          sentido, presencia con garra, presencia con estrategia.
+        </p>
+        <p>
+          Somos especialistas en <strong>redes sociales y control de crisis</strong>,
+          dos campos que no se enseñan en la universidad pero que definen el
+          futuro de una marca. Sabemos lo que significa una narrativa que se
+          rompe, una reputación en riesgo o un comentario viral que se sale
+          de control. Y por eso no trabajamos con fórmulas, trabajamos con
+          inteligencia.
+        </p>
+        <p>
+          Detrás de cada publicación que lanzamos hay intención. Detrás de
+          cada silencio que sugerimos hay cálculo. Y detrás de cada marca que
+          confía en nosotros, hay resultados. Porque en ANIMA no se
+          improvisa. Se analiza, se crea, se dispara.
+        </p>
+        <p>
+          Si estás buscando una agencia que entienda el poder de lo que no
+          se dice, del momento exacto para aparecer y del impacto de una
+          buena estrategia en redes, llegaste al lugar correcto. Esto no es
+          un showroom de diseño: es una central de ideas, emociones y
+          decisiones inteligentes.
+        </p>
+      </div>
+      <div class="video-box">
+        <div class="video-wrapper">
+          <iframe
+            src="https://www.youtube.com/embed/XMSWoM3k0s0?si=o80Z8R418JFUNVbE"
+            title="Vídeo de presentación"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </section>
 
-  <div class="video-box">
-    <div class="video-wrapper">
-      <iframe src="https://www.youtube.com/embed/XMSWoM3k0s0?si=o80Z8R418JFUNVbE" frameborder="0" allowfullscreen></iframe>
-    </div>
-  </div>
-</section>
+    <!-- Caja con imagen izquierda + texto -->
+    <section class="box1">
+      <img src="images/Inicio/creatividad.jpg" alt="Creatividad en redes" />
+      <div class="contenido-box">
+        <p>
+          Creamos contenido con estrategia. Desde un reel viral hasta una
+          campaña de identidad visual coherente, lo que producimos no es
+          casual: está pensado para conectar, emocionar y generar
+          resultados. En ANIMA, las redes no son un escaparate: son una
+          herramienta de influencia.
+        </p>
+      </div>
+    </section>
 
-    <!-- Imagen izquierda + texto -->
-   <section class="box1">
-  <img src="../images/Inicio/creatividad.jpg" alt="Creatividad en redes">
-  <div class="contenido-box">
-  <p>
-    Creamos contenido con estrategia. Desde un reel viral hasta una campaña de identidad visual coherente, 
-    lo que producimos no es casual: está pensado para conectar, emocionar y generar resultados.
-    En ANIMA, las redes no son un escaparate: son una herramienta de influencia.
-  </p>
-  </div>
-</section>
-
-    <!-- Imagen derecha + texto -->
+    <!-- Caja con imagen derecha + texto -->
     <section class="box2">
-  <img src="../images/Inicio/control.jpg" alt="Control de crisis">
-  <div class="contenido-box">
-  <p>
-    ¿Comentarios negativos? ¿Cancelación? ¿Filtraciones?  
-    No solo sabemos contener incendios: los aprovechamos para reposicionar tu marca. 
-    Nuestro equipo de análisis y narrativa actúa con precisión quirúrgica en momentos de tensión digital.
-    Cuando nadie sabe qué decir... nosotros escribimos el guión.
-  </p>
-</div>
-</section>
-</main>
+      <img src="images/Inicio/control.jpg" alt="Control de crisis" />
+      <div class="contenido-box">
+        <p>
+          ¿Comentarios negativos? ¿Cancelación? ¿Filtraciones? No solo
+          sabemos contener incendios: los aprovechamos para reposicionar tu
+          marca. Nuestro equipo de análisis y narrativa actúa con precisión
+          quirúrgica en momentos de tensión digital. Cuando nadie sabe qué
+          decir… nosotros escribimos el guión.
+        </p>
+      </div>
+    </section>
+  </main>
 
-<!-- PIE DE PÁGINA -->
-<footer>
-        <section class="footer-link">
-<ul>
-        <li><a href="#">Inicio</a></li>
+  <!-- PIE DE PÁGINA -->
+  <footer>
+    <section class="footer-link">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
         <li><a href="pages/proyectos.html">Proyectos</a></li>
         <li><a href="pages/trabajo.html">Trabajo</a></li>
         <li><a href="pages/sobre_mi.html">Sobre mí</a></li>
         <li><a href="pages/contacto.html">Contacto</a></li>
-</ul>
+      </ul>
     </section>
-
     <section class="footer-redes">
-<a href="#">Facebook</a> |
-<a href="#">Twitter</a> |
-<a href="#">Whatsapp</a>
+      <a href="#">Facebook</a> |
+      <a href="#">Twitter</a> |
+      <a href="#">Whatsapp</a>
     </section>
-</footer>
+  </footer>
 </body>
 </html>
